@@ -1,0 +1,9 @@
+1. javaScript Types
+2. javaScript Comparision
+3. javaScript Variables
+4. javaScript Conditionals
+5. javaScript Logical Operators
+6. javaScript Functions
+7. javaScript DataStructure
+8. javaScript Looping
+9. javaScript Key Words
