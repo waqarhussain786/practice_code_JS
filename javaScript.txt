@@ -14,3 +14,13 @@
 ==> Writing into an alert box, using window.alert().
 ==> writing into the browser console, using console.log().
 
+javaScript Keywords.
+1. var------------------Declears a variable.
+2. let------------------Declear a block variable.
+3. const----------------Declear a block Constant.
+4. if-------------------Marks a block of statements to be executed on a condition.
+5. switch---------------Marks a block of statements to be executed in different cases.
+6. for------------------Marks a block of statements to be executed on a loop.
+7. Function-------------Declear a function.
+8. return---------------Exits a function.
+9. try------------------Implements error handling to a block of statements.
