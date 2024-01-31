@@ -8,6 +8,9 @@
 8. javaScript Looping
 9. javaScript Key Words
 
-===> javaScript Types:
-==> Conversion Operators:
-all done
+
+==> writing into an HTML element, using innerHTML.
+==> Writing into the HTML output using document.write().
+==> Writing into an alert box, using window.alert().
+==> writing into the browser console, using console.log().
+
