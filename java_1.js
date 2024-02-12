@@ -1,3 +1,7 @@
-let person = "waqar hussain ujjan";
-let carName = "Toyota";
-let price = 20;
+let button = document.getElementsByTagName("button")[0];;
+
+//document.getElementById("car").innerHTML = "cars";
+
+button.addEventListener("click", function () {
+    console.log("Clicked!!!");
+})
