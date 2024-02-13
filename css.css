@@ -1,16 +1,7 @@
-form{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+body{
+    background-color: #0d6efd;
+    margin-left: 35%;
 }
-
-.name{
-    flex: 1 0 130px;
-}
-.email{
-    flex: 1 0 130px;
-}
-
 button{
     cursor: pointer;
     flex: 1 0 40px;
