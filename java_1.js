@@ -34,14 +34,8 @@ button.addEventListener("click", function(){
 //     ul.appendChild(li);
 // })
 
-
-
-
-
-
 // button.addEventListener("click", function(){
 //     var li = document.createElement("li");
 //     li.appendChild(document.createTextNode("testing"));
 //     ul.appendChild(li);
 // })
-
