@@ -1,13 +1,16 @@
 var input = document.getElementById("user_input");
 var button = document.getElementById("add");
-var ul = document.querySelector("ul")
+var ul = document.querySelector("ul");
 
 
-button.addEventListener("click", function () {
+
+button.addEventListener("click", function(){
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
 })
+
+
 
 
 
