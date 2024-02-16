@@ -3,30 +3,77 @@ var input = document.getElementById("user_input");
 var ul = document.querySelector("ul");
 
 
-
-
-function AddItems() {
+function inputLength() {
     return input.value.length;
 }
 
-function createListElement() {
+function createListItem() {
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
     input.value = "";
 }
 
-button.addEventListener("click", function () {
-    if (AddItems() > 0) {
-        createListElement();
+function addListAfterClick() {
+    if (inputLength()  > 0) {
+        createListItem()
     }
-});
+}
 
-input.addEventListener("keypress", function (e) {
-    if (AddItems() > 0 && e.key === 'Enter') {
-        createListElement();
+function addListAfterKeypress(e) {
+    if (inputLength()  > 0 && e.key === 'Enter') {
+        createListItem()
     }
-});
+}
+
+
+button.addEventListener("click", addListAfterClick);
+
+input.addEventListener("keypress", addListAfterKeypress);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function AddItems() {
+//     return input.value.length;
+// }
+
+// function createListElement() {
+//     var li = document.createElement("li");
+//     li.appendChild(document.createTextNode(input.value));
+//     ul.appendChild(li);
+//     input.value = "";
+// }
+
+// button.addEventListener("click", function () {
+//     if (AddItems() > 0) {
+//         createListElement();
+//     }
+// });
+
+// input.addEventListener("keypress", function (e) {
+//     if (AddItems() > 0 && e.key === 'Enter') {
+//         createListElement();
+//     }
+// });
 
 
 
