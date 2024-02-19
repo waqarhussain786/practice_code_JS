@@ -3,33 +3,40 @@ var input = document.getElementById("user_input");
 var ul = document.querySelector("ul");
 
 
-function inputLength() {
-    return input.value.length;
+function afterClick() {
+    if (inputLength() > 0) {
+        createElement()
+    }
+}
+function afterKeypress(e) {
+    if (inputLength() > 0 && e.key === "Enter") {
+        createElement()
+    }
 }
 
-function createListItem() {
+function createElement() {
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
     input.value = "";
 }
 
-function addListAfterClick() {
-    if (inputLength()  > 0) {
-        createListItem()
-    }
+function inputLength() {
+    return input.value.length
 }
 
-function addListAfterKeypress(e) {
-    if (inputLength()  > 0 && e.key === 'Enter') {
-        createListItem()
-    }
-}
+button.addEventListener("click", afterClick);
+
+input.addEventListener("keypress", afterKeypress);
 
 
-button.addEventListener("click", addListAfterClick);
 
-input.addEventListener("keypress", addListAfterKeypress);
+
+
+
+
+
+
 
 
 
