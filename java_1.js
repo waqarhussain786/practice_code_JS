@@ -2,29 +2,31 @@ var button = document.getElementById("add");
 var input = document.getElementById("user_input");
 var ul = document.getElementById("item_list");
 
-function inputLength(){
-    return input.value.length
-}
-
 function afterClick(){
-    if(inputLength() > 0){
-        createElement()
+    if(ListLength()){
+        elementCreator()
     }
 }
-function afterkeyPress(e){
-    if(inputLength() > 0 && e.key === "Enter"){
-        createElement()
+
+function afterKeypress(e){
+    if(ListLength() && e.key === 'Enter'){
+        elementCreator()
     }
 }
-function createElement(){
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(li);
-    input.value = "";
+
+function ListLength(){
+    return input.value.length > 0;
 }
 
-button.addEventListener("click", afterClick)
-input.addEventListener("keypress", afterkeyPress)
+function elementCreator(){
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(input.value));
+        ul.appendChild(li);
+        input.value = "";
+}
+
+button.addEventListener("click", afterClick);
+input.addEventListener("keypress", afterKeypress);
 
 
 
@@ -36,36 +38,6 @@ input.addEventListener("keypress", afterkeyPress)
 
 
 
-
-
-
-
-
-
-
-
-// function AddItems() {
-//     return input.value.length;
-// }
-
-// function createListElement() {
-//     var li = document.createElement("li");
-//     li.appendChild(document.createTextNode(input.value));
-//     ul.appendChild(li);
-//     input.value = "";
-// }
-
-// button.addEventListener("click", function () {
-//     if (AddItems() > 0) {
-//         createListElement();
-//     }
-// });
-
-// input.addEventListener("keypress", function (e) {
-//     if (AddItems() > 0 && e.key === 'Enter') {
-//         createListElement();
-//     }
-// });
 
 
 
@@ -103,6 +75,36 @@ input.addEventListener("keypress", afterkeyPress)
 //         input.value = "";
 //     }
 // });
+
+
+// var button = document.getElementById("add");
+// var input = document.getElementById("user_input");
+// var ul = document.getElementById("item_list");
+
+// function inputLength(){
+//     return input.value.length
+// }
+
+// function afterClick(){
+//     if(inputLength() > 0){
+//         createElement()
+//     }
+// }
+// function afterkeyPress(e){
+//     if(inputLength() > 0 && e.key === "Enter"){
+//         createElement()
+//     }
+// }
+// function createElement(){
+//     var li = document.createElement("li");
+//     li.appendChild(document.createTextNode(input.value));
+//     ul.appendChild(li);
+//     input.value = "";
+// }
+
+// button.addEventListener("click", afterClick)
+// input.addEventListener("keypress", afterkeyPress)
+
 
 
 
