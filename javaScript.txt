@@ -1,3 +1,5 @@
+===> javaScript is dynamically typed language.
+
 1. javaScript Types
 2. javaScript Comparision
 3. javaScript Variables
@@ -8,11 +10,16 @@
 8. javaScript Looping
 9. javaScript Key Words
 
+//Masters In
+===> web Events OR Browser Events & javaScript Objects.
 
-==> writing into an HTML element, using innerHTML.
-==> Writing into the HTML output using document.write().
-==> Writing into an alert box, using window.alert().
-==> writing into the browser console, using console.log().
+// primitive type
+===> 7 Types : string, number, boolean, null, undefined, Symbol, BigInt
+
+// Reference type (Non-primitive type)
+===> Array, Objects, Functions
+
+
 
 javaScript Keywords.
 1. var------------------Declears a variable.
