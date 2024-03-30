@@ -31,3 +31,10 @@ javaScript Keywords.
 7. Function-------------Declear a function.
 8. return---------------Exits a function.
 9. try------------------Implements error handling to a block of statements.
+
+
+memory Types
+1. Stack.
+===> primitive
+2. Heap.
+===> Non-primitive OR Reference

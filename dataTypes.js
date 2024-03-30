@@ -33,4 +33,29 @@ const myFunction = function () {
     // console.log("hello world");
 }
 
-console.log(typeof info);
+// console.log(typeof info);
+
+// memory Types 
+// Stack ===> primitive
+
+let myName = "waqar hussain ujjan1";
+let fullName = myName;
+
+fullName = "Waqar hussain ujjan2"
+
+// console.log(myName);
+// console.log(fullName);
+
+// Heap ===> Non-primitive OR Reference
+
+let user1 = {
+    email: "user1@gmail.com",
+    id : 1
+}
+
+let user2 = user1;
+
+user2.email = "waqar@gmail.com"
+
+console.log(user1);
+console.log(user2);
