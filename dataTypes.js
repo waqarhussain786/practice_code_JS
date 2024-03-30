@@ -29,8 +29,8 @@ let info = {
     age: 30,
 }
 //func
-const myFunction = function(){
+const myFunction = function () {
     // console.log("hello world");
 }
 
-console.log(typeof temp);
+console.log(typeof info);
