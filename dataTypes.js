@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 56464513216546321n
 
@@ -20,3 +20,17 @@ const bigNumber = 56464513216546321n
 
 // Reference type (Non-primitive type)
 // ===> Array, Objects, Functions
+
+// Array
+const fruit = ['banana', 'apple'];
+//obj
+let info = {
+    name: "waqar hussain ujjan",
+    age: 30,
+}
+//func
+const myFunction = function(){
+    // console.log("hello world");
+}
+
+console.log(typeof temp);
