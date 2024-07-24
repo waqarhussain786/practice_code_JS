@@ -2,6 +2,7 @@ const accountId = 123;
 let accountEmail = "waqar@gmail.com";
 var accountPassword = "12345";
 accountCity = "Madeji";
+let accountState;
 
 
 accountEmail = "ujjan@gmail.com"
@@ -15,4 +16,4 @@ prefer not to use var
 because of issue in block scope and functional scope
 */
 
-console.table([accountId, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity ,accountState]);
