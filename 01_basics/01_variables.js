@@ -24,8 +24,16 @@ const Person = { firstName: "waqar", lastName: "ujjan" };
 const citiesName = ["Karachi", "Lahore", "Islamabad"];
 
 const date = new Date("2024/07/25");
- 
 
+function Practice() {
+    if(length > 16){
+        console.log(color + lastName);
+    }else{
+        console.log("error 404")
+    }
+}
+
+console.log(Practice());
 
 
 
