@@ -22,13 +22,6 @@ Six types of variables
 
 
 
-
-
-
-
-
-
-
 /* 
 
 6 types of variales
