@@ -1,3 +1,34 @@
+/*
+
+Six types of variables
+
+1. Number ----------------> 1234567890
+2. String ----------------> "Hello"
+3. Boolean ---------------> True Or False
+4. Object ----------------> const userData = { firstName:"waqar", lastName: "hussain" }
+5. Arry Object -----------> const userData = ["waqar","hussain","ujjan"]
+6. Date Object -----------> const date = new Date (2024/08/05)
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 6 types of variales
@@ -26,9 +57,9 @@ const citiesName = ["Karachi", "Lahore", "Islamabad"];
 const date = new Date("2024/07/25");
 
 function Practice() {
-    if(length > 16){
+    if (length > 16) {
         console.log(color + lastName);
-    }else{
+    } else {
         console.log("error 404")
     }
 }
