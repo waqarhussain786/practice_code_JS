@@ -6,7 +6,7 @@ Six types of variables
 2. String ----------------> "Hello"
 3. Boolean ---------------> True Or False
 4. Object ----------------> const userData = { firstName:"waqar", lastName: "hussain" }
-5. Arry Object -----------> const userData = ["waqar","hussain","ujjan"]
+5. Arry Object -----------> const userData = ["waqar","hussain"]
 6. Date Object -----------> const date = new Date (2024/08/05)
 
 */
@@ -26,9 +26,9 @@ Six types of variables
 
 6 types of variales
 1. Numbers -------------> 123456
-2. String  -------------> "waqar hussain ujjan"
+2. String  -------------> "waqar hussain"
 3. Boolean -------------> true 0R false
-4. Object  -------------> const person = {firstName:"waqar", lastName:"ujjan"};
+4. Object  -------------> const person = {firstName:"waqar", lastName:"hussain"};
 5. Array Object --------> const cars = ["toyota", "Honda", "Suzuki"];
 6. Date Object ---------> const date = new Date("2024/07/25");
 
@@ -38,12 +38,12 @@ let length = 16;
 let weight = 7.5;
 
 let color = "red";
-let lastName = "ujjan";
+let lastName = "hussain";
 
 let x = true;
 let y = false;
 
-const Person = { firstName: "waqar", lastName: "ujjan" };
+const Person = { firstName: "waqar", lastName: "hussain" };
 
 const citiesName = ["Karachi", "Lahore", "Islamabad"];
 
