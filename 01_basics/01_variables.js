@@ -1,25 +1,3 @@
-/* 
-    6 types of variables
-    1. numbers -----------------> 1234567890
-    2. string ------------------> "waqar hussain"
-    3. Boolean -----------------> 'true' OR 'false'
-    4. object ------------------> const x = {userName: 'xyz', userEmail: 'xyz@gmail.com', userPassword: '12345'}
-    5. arry object -------------> const x = ["xyz", "xyz@gmail.com", "12345"]
-    6. Date Object -------------> const date = new Date ("23/08/2024");
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 
