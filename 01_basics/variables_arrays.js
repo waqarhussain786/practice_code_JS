@@ -1,4 +1,4 @@
-const a = { firstName: "Waqar", lastName: "Hussain", Email: "waqar@gmail.com" }
+const a = { firstName: "Waqar", lastName: "Hussain", Email: "hussain@gmail.com" }
 
 
 
