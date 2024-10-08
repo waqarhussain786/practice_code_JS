@@ -23,6 +23,7 @@ let y = false;
 const Person = { firstName: "waqar", lastName: "hussain" };
 
 const citiesName = ["Karachi", "Lahore", "Islamabad"];
+const citiesName2 = ["Karachi", "Lahore", "Islamabad"];
 
 const date = new Date("2024/07/25");
 
