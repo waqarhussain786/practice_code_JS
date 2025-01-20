@@ -11,31 +11,31 @@
 
 */
 
-let length = 16;
-let weight = 7.5;
+// let length = 16;
+// let weight = 7.5;
 
-let color = "red";
-let lastName = "hussain";
+// let color = "red";
+// let lastName = "hussain";
 
-let x = true;
-let y = false;
+// let x = true;
+// let y = false;
 
-const Person = { firstName: "waqar", lastName: "hussain" };
+// const Person = { firstName: "waqar", lastName: "hussain" };
 
-const citiesName = ["Karachi", "Lahore", "Islamabad"];
-const citiesName2 = ["Karachi", "Lahore", "Islamabad"];
+// const citiesName = ["Karachi", "Lahore", "Islamabad"];
+// const citiesName2 = ["Karachi", "Lahore", "Islamabad"];
 
-const date = new Date("2024/07/25");
+// const date = new Date("2024/07/25");
 
-function Practice() {
-    if (length > 16) {
-        console.log(color + lastName);
-    } else {
-        console.log("error 404")
-    }
-}
+// function Practice() {
+//     if (length > 16) {
+//         console.log(color + lastName);
+//     } else {
+//         console.log("error 404")
+//     }
+// }
 
-console.log(Practice());
+// console.log(Practice());
 
 
 
